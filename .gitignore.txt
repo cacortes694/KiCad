@@ -3,6 +3,4 @@
 .DS_Store
 fp-info-cache
 *Gerber/*
-*backups/*
-*Project 3 MCUdatalogger-backups/*
-Project 3 MCUdatalogger/Project 3 MCUdatalogger-backups/Project 3 MCUdatalogger-2024-11-26_205210.zip
+*Project 3 MCUdatalogger/Project 3 MCUdatalogger-backups/*
