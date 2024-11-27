@@ -3,4 +3,4 @@
 .DS_Store
 fp-info-cache
 *Gerber/*
-*backups/*
+*Project 3 MCUdatalogger/Project 3 MCUdatalogger-backups/*
