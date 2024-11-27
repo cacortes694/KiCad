@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "f12dada7-62a1-4702-96ee-fab5ba23936c")
+	(uuid "38d61560-f341-4d1a-9cae-e1a9bea6c8d7")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -964,7 +964,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape passive)
-		(at 78.74 82.55 0)
+		(at 78.74 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1072,7 +1072,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 78.74 80.01 0)
+		(at 78.74 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1120,7 +1120,7 @@
 	)
 	(hierarchical_label "Vcc"
 		(shape passive)
-		(at 78.74 77.47 0)
+		(at 78.74 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1168,7 +1168,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 78.74 74.93 0)
+		(at 78.74 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1492,7 +1492,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 73.66 77.47 0)
+		(at 73.66 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1500,7 +1500,7 @@
 		(dnp no)
 		(uuid "8d0cad40-cd7a-4acb-87b8-501244f9a7d5")
 		(property "Reference" "J1"
-			(at 74.295 70.485 0)
+			(at 74.295 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1508,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 74.295 73.025 0)
+			(at 74.295 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1516,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 73.66 77.47 0)
+			(at 73.66 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 77.47 0)
+			(at 73.66 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1534,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 73.66 77.47 0)
+			(at 73.66 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +1543,7 @@
 			)
 		)
 		(property "Purpose" "I2C"
-			(at 74.295 85.09 0)
+			(at 74.295 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
