@@ -2683,6 +2683,12 @@
 		(uuid "d0d143ba-3936-4552-b313-5e8b6cb76ea0")
 	)
 	(junction
+		(at 101.6 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5ac4faa-8f57-40b7-af0f-6ff48560f106")
+	)
+	(junction
 		(at 95.25 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2842,6 +2848,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 44.45) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2840a53e-4ed8-4cdc-b580-c1004669012d")
+	)
+	(wire
+		(pts
 			(xy 96.52 180.34) (xy 96.52 184.15)
 		)
 		(stroke
@@ -2889,6 +2905,16 @@
 			(type default)
 		)
 		(uuid "2c1b8c0e-da2c-435e-b1e6-64417d31eb6e")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 107.95 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d094174-860d-4396-97d5-5f9b3ad56da6")
 	)
 	(wire
 		(pts
@@ -3542,7 +3568,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 50.8) (xy 107.95 50.8)
+			(xy 95.25 50.8) (xy 101.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6986,6 +7012,72 @@
 			(project "Project 3 MCUdatalogger"
 				(path "/7d5d1e2c-b308-4025-bcdd-7450c663d83b"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 101.6 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f46acd0a-7767-4ef4-9788-19936eee93ab")
+		(property "Reference" "#FLG03"
+			(at 101.6 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3bbf137-d912-4b45-ae19-1248f51c856b")
+		)
+		(instances
+			(project "Project 3 MCUdatalogger"
+				(path "/7d5d1e2c-b308-4025-bcdd-7450c663d83b"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
