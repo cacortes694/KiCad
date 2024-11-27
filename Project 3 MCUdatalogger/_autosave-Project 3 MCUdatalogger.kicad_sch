@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ca9b93bf-c476-4b42-a06a-47bc4497316c")
+	(paper "A4")
+	(title_block
+		(title "MCUdatalogger")
+		(date "2024-11-26")
+		(rev "1")
+		(comment 1 "Author: Carlos Cortes")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
